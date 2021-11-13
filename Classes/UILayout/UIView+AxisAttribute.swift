@@ -45,6 +45,31 @@ public extension UIView {
     }
     
     @discardableResult
+    func rightAnchor(
+        in superview: UIView,
+        attribute: XAxisAttribute = .right,
+        padding: CGFloat = 0,
+        layoutOption: AutoLayoutOption = .useSafeArea) -> Self {
+        
+        let useSafeArea = layoutOption.useSafeArea
+        let useMargins = layoutOption.useMargins
+        
+        let rightAnchor = thisRightAnchor(useSafeArea: useSafeArea, useMargins: useMargins)
+        
+        let superviewAxisXAnchor: NSLayoutXAxisAnchor
+        
+        if attribute == .right {
+            superviewAxisXAnchor = superview.thisRightAnchor(useSafeArea: useSafeArea, useMargins: useMargins)
+        } else {
+            superviewAxisXAnchor = superview.thisLeftAnchor(useSafeArea: useSafeArea, useMargins: useMargins)
+        }
+        
+        rightAnchor.constraint(equalTo: superviewAxisXAnchor,
+                              constant: -padding).isActive = true
+        return self
+    }
+    
+    @discardableResult
     func topAnchor(
         in superview: UIView,
         attribute: YAxisAttribute = .top,
@@ -70,6 +95,8 @@ public extension UIView {
         
         return self
     }
+    
+    
     
     @discardableResult
     func bottomAnchor(

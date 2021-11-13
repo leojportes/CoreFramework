@@ -69,3 +69,36 @@ public extension Padding {
         return UIEdgeInsets(top: self.top, left: self.left, bottom: self.bottom, right: self.right)
     }
 }
+
+open class PaddingView: UIView {
+    
+    public let padding: Padding
+    
+    private(set) public lazy var contentView: UIView = {
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        view.pin(toEdgesOf: self, padding: padding)
+        
+        return view
+    }()
+    
+    //MARK: - Lifecycle
+    
+    public init(padding: Padding) {
+        self.padding = padding
+        super.init(frame: .zero)
+        self.translatesAutoresizingMaskIntoConstraints = false
+    }
+    
+    public convenience init(padding: Padding, content: UIView) {
+        self.init(padding: padding)
+        self.contentView.addSubview(content)
+        content.pin(toEdgesOf: self.contentView)
+    }
+    
+    required public init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+}

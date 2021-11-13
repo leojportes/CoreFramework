@@ -22,13 +22,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    private lazy var label: UILabel = {
-        let label = UILabel()
-        label.text = "Teste Fin4teen"
-        label.textColor = .white
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
 
 }
 

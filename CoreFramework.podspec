@@ -28,9 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/leojportes@gmail.com/CoreFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.4'
 
-  s.source_files = 'CoreFramework/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
+  
+  s.swift_version = '5.0'
+  
+  s.plataforms = {
+      "ios": "14.4"
+  }
   
   # s.resource_bundles = {
   #   'CoreFramework' => ['CoreFramework/Assets/*.png']

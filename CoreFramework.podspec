@@ -33,11 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'Classes/**/*.swift'
   
   s.swift_version = '5.0'
-  
-  s.plataforms = {
-      "ios": "14.4"
-  }
-  
+    
   # s.resource_bundles = {
   #   'CoreFramework' => ['CoreFramework/Assets/*.png']
   # }

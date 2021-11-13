@@ -1,0 +1,16 @@
+PODS:
+  - CoreFramework (0.1.0)
+
+DEPENDENCIES:
+  - CoreFramework (from `../`)
+
+EXTERNAL SOURCES:
+  CoreFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoreFramework: 06eac1328c79c3cecc0037ad9b456b0278af21db
+
+PODFILE CHECKSUM: 680f66ee98d6792e6cbda46255c22ad2714e3aaa
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,22 @@
+{
+  "name": "CoreFramework",
+  "version": "0.1.0",
+  "summary": "A short description of CoreFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/leojportes@gmail.com/CoreFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leojportes@gmail.com": "leojportes@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/leojportes@gmail.com/CoreFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CoreFramework/Classes/**/*"
+}

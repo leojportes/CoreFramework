@@ -16,6 +16,13 @@
 		5DDCB3EFA3DF288A21ABBC1FE14805D8 /* Pods-CoreFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC3A08C866F2AE87BACEC9563735251 /* Pods-CoreFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8276D7FFC7D81548A94AB8D587A8F91F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C0FB764D2740334500D5ADA1 /* ViewCodeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB764C2740334500D5ADA1 /* ViewCodeContract.swift */; };
+		C0FB76B2274037CD00D5ADA1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB76B1274037CD00D5ADA1 /* StringExtension.swift */; };
+		C0FB76B92740387200D5ADA1 /* UIView+AxisAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB76B82740387200D5ADA1 /* UIView+AxisAttribute.swift */; };
+		C0FB76BE2740389500D5ADA1 /* UIView+RawAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB76BD2740389500D5ADA1 /* UIView+RawAnchors.swift */; };
+		C0FB76C3274038AF00D5ADA1 /* UIView+LayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB76C2274038AF00D5ADA1 /* UIView+LayoutGuides.swift */; };
+		C0FB76C8274038D100D5ADA1 /* UIView+SafeAreaAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB76C7274038D100D5ADA1 /* UIView+SafeAreaAnchors.swift */; };
+		C0FB76F027403C9400D5ADA1 /* AutoLayoutOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB76EF27403C9400D5ADA1 /* AutoLayoutOption.swift */; };
+		C0FB76F527403D3A00D5ADA1 /* NSLayoutDimension+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB76F427403D3A00D5ADA1 /* NSLayoutDimension+Extension.swift */; };
 		C3913C5145EDED88CCE97B42CD6863B3 /* Pods-CoreFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEECAEB3554A3D94AEB4F3CD76448D /* Pods-CoreFramework_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +70,13 @@
 		B0ABE2FF7F0954D34115567E316D372B /* CoreFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreFramework-umbrella.h"; sourceTree = "<group>"; };
 		B16A8F00B9B986C1EAEE6996FB4B0DDE /* Pods-CoreFramework_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoreFramework_Tests"; path = Pods_CoreFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FB764C2740334500D5ADA1 /* ViewCodeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeContract.swift; sourceTree = "<group>"; };
+		C0FB76B1274037CD00D5ADA1 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		C0FB76B82740387200D5ADA1 /* UIView+AxisAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AxisAttribute.swift"; sourceTree = "<group>"; };
+		C0FB76BD2740389500D5ADA1 /* UIView+RawAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RawAnchors.swift"; sourceTree = "<group>"; };
+		C0FB76C2274038AF00D5ADA1 /* UIView+LayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutGuides.swift"; sourceTree = "<group>"; };
+		C0FB76C7274038D100D5ADA1 /* UIView+SafeAreaAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SafeAreaAnchors.swift"; sourceTree = "<group>"; };
+		C0FB76EF27403C9400D5ADA1 /* AutoLayoutOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutOption.swift; sourceTree = "<group>"; };
+		C0FB76F427403D3A00D5ADA1 /* NSLayoutDimension+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutDimension+Extension.swift"; sourceTree = "<group>"; };
 		C116A4B1F9663316F001612601A2A430 /* Pods-CoreFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoreFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C29E329A1F1F3D901643053015BF895B /* Pods-CoreFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoreFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D1296C9FAFDF5B51569B10FC0A198B8E /* CoreFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CoreFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -171,9 +185,40 @@
 		C0FB76482740331A00D5ADA1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C0FB764C2740334500D5ADA1 /* ViewCodeContract.swift */,
+				C0FB76CE2740390B00D5ADA1 /* Extensions */,
+				C0FB76CD2740390200D5ADA1 /* Protocols */,
+				C0FB76CC274038E200D5ADA1 /* UILayout */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		C0FB76CC274038E200D5ADA1 /* UILayout */ = {
+			isa = PBXGroup;
+			children = (
+				C0FB76C2274038AF00D5ADA1 /* UIView+LayoutGuides.swift */,
+				C0FB76BD2740389500D5ADA1 /* UIView+RawAnchors.swift */,
+				C0FB76C7274038D100D5ADA1 /* UIView+SafeAreaAnchors.swift */,
+				C0FB76B82740387200D5ADA1 /* UIView+AxisAttribute.swift */,
+				C0FB76EF27403C9400D5ADA1 /* AutoLayoutOption.swift */,
+				C0FB76F427403D3A00D5ADA1 /* NSLayoutDimension+Extension.swift */,
+			);
+			path = UILayout;
+			sourceTree = "<group>";
+		};
+		C0FB76CD2740390200D5ADA1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C0FB764C2740334500D5ADA1 /* ViewCodeContract.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C0FB76CE2740390B00D5ADA1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0FB76B1274037CD00D5ADA1 /* StringExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -381,7 +426,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				51C6EF7E8ABB75703B1B3599B5753190 /* CoreFramework-dummy.m in Sources */,
+				C0FB76F027403C9400D5ADA1 /* AutoLayoutOption.swift in Sources */,
+				C0FB76F527403D3A00D5ADA1 /* NSLayoutDimension+Extension.swift in Sources */,
+				C0FB76C8274038D100D5ADA1 /* UIView+SafeAreaAnchors.swift in Sources */,
+				C0FB76C3274038AF00D5ADA1 /* UIView+LayoutGuides.swift in Sources */,
 				C0FB764D2740334500D5ADA1 /* ViewCodeContract.swift in Sources */,
+				C0FB76B92740387200D5ADA1 /* UIView+AxisAttribute.swift in Sources */,
+				C0FB76BE2740389500D5ADA1 /* UIView+RawAnchors.swift in Sources */,
+				C0FB76B2274037CD00D5ADA1 /* StringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

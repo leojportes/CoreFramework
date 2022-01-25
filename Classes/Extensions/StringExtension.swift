@@ -5,4 +5,10 @@
 //  Created by Leonardo Portes on 13/11/21.
 //
 
-import Foundation
+public extension String {
+    
+    /// An empty swift string
+    static var empty: String {
+        return ""
+    }
+}

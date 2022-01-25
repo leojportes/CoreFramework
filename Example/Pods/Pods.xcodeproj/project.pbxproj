@@ -25,8 +25,14 @@
 		C0FB76F027403C9400D5ADA1 /* AutoLayoutOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB76EF27403C9400D5ADA1 /* AutoLayoutOption.swift */; };
 		C0FB76F527403D3A00D5ADA1 /* NSLayoutDimension+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB76F427403D3A00D5ADA1 /* NSLayoutDimension+Extension.swift */; };
 		C0FB770F2740402200D5ADA1 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB770E2740402200D5ADA1 /* Padding.swift */; };
-		C0FB773B27404B7100D5ADA1 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB773A27404B7100D5ADA1 /* Popover.swift */; };
-		C0FB7754274055BF00D5ADA1 /* CoachMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB7753274055BF00D5ADA1 /* CoachMarkViewController.swift */; };
+		C0FEF52027A0B15200C57F10 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FEF51F27A0B15200C57F10 /* BaseCoordinator.swift */; };
+		C0FEF52827A0B16800C57F10 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FEF52727A0B16800C57F10 /* Coordinator.swift */; };
+		C0FEF52D27A0B18100C57F10 /* CoordinatorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FEF52C27A0B18100C57F10 /* CoordinatorConfiguration.swift */; };
+		C0FEF53227A0B19B00C57F10 /* CoordinatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FEF53127A0B19B00C57F10 /* CoordinatedViewController.swift */; };
+		C0FEF53727A0B1DF00C57F10 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FEF53627A0B1DF00C57F10 /* UIView+Extensions.swift */; };
+		C0FEF55227A0B32000C57F10 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FEF55127A0B32000C57F10 /* IconButton.swift */; };
+		C0FEF55827A0B36A00C57F10 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FEF55727A0B36A00C57F10 /* Typealias.swift */; };
+		C0FEF56027A0B4C900C57F10 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FEF55F27A0B4C900C57F10 /* UILabel+Extensions.swift */; };
 		C3913C5145EDED88CCE97B42CD6863B3 /* Pods-CoreFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEECAEB3554A3D94AEB4F3CD76448D /* Pods-CoreFramework_Example-dummy.m */; };
 		CD6F7822DC70122D3292C722 /* Pods_Pods_CoreFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77789F9D4AEE80FC194BAEDF /* Pods_Pods_CoreFramework_Tests.framework */; };
 		DD3266F7853E88DB372C0F6A /* Pods_Pods_CoreFramework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87F1ACE508BB61634E40F40 /* Pods_Pods_CoreFramework_Example.framework */; };
@@ -90,8 +96,14 @@
 		C0FB76EF27403C9400D5ADA1 /* AutoLayoutOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutOption.swift; sourceTree = "<group>"; };
 		C0FB76F427403D3A00D5ADA1 /* NSLayoutDimension+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutDimension+Extension.swift"; sourceTree = "<group>"; };
 		C0FB770E2740402200D5ADA1 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
-		C0FB773A27404B7100D5ADA1 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
-		C0FB7753274055BF00D5ADA1 /* CoachMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachMarkViewController.swift; sourceTree = "<group>"; };
+		C0FEF51F27A0B15200C57F10 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		C0FEF52727A0B16800C57F10 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		C0FEF52C27A0B18100C57F10 /* CoordinatorConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorConfiguration.swift; sourceTree = "<group>"; };
+		C0FEF53127A0B19B00C57F10 /* CoordinatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatedViewController.swift; sourceTree = "<group>"; };
+		C0FEF53627A0B1DF00C57F10 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		C0FEF55127A0B32000C57F10 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		C0FEF55727A0B36A00C57F10 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		C0FEF55F27A0B4C900C57F10 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 		C116A4B1F9663316F001612601A2A430 /* Pods-CoreFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoreFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C29E329A1F1F3D901643053015BF895B /* Pods-CoreFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoreFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CEE108EECD04D669A4B7F9A0 /* Pods-Pods-CoreFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pods-CoreFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Pods-CoreFramework_Tests/Pods-Pods-CoreFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -194,7 +206,6 @@
 				CEE108EECD04D669A4B7F9A0 /* Pods-Pods-CoreFramework_Tests.debug.xcconfig */,
 				106632FF3E94ADD3FD476B79 /* Pods-Pods-CoreFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -220,6 +231,8 @@
 		C0FB76482740331A00D5ADA1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C0FEF55627A0B35700C57F10 /* Helpers */,
+				C0FEF51E27A0B13100C57F10 /* Coordinator */,
 				C0FB773927404B5200D5ADA1 /* UIComponents */,
 				C0FB76CE2740390B00D5ADA1 /* Extensions */,
 				C0FB76CD2740390200D5ADA1 /* Protocols */,
@@ -254,6 +267,8 @@
 			isa = PBXGroup;
 			children = (
 				C0FB76B1274037CD00D5ADA1 /* StringExtension.swift */,
+				C0FEF53627A0B1DF00C57F10 /* UIView+Extensions.swift */,
+				C0FEF55F27A0B4C900C57F10 /* UILabel+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -261,18 +276,28 @@
 		C0FB773927404B5200D5ADA1 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				C0FB7753274055BF00D5ADA1 /* CoachMarkViewController.swift */,
-				C0FB773A27404B7100D5ADA1 /* Popover.swift */,
-				C0FB773F27404B9200D5ADA1 /* Enums */,
+				C0FEF55127A0B32000C57F10 /* IconButton.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
 		};
-		C0FB773F27404B9200D5ADA1 /* Enums */ = {
+		C0FEF51E27A0B13100C57F10 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				C0FEF51F27A0B15200C57F10 /* BaseCoordinator.swift */,
+				C0FEF52727A0B16800C57F10 /* Coordinator.swift */,
+				C0FEF52C27A0B18100C57F10 /* CoordinatorConfiguration.swift */,
+				C0FEF53127A0B19B00C57F10 /* CoordinatedViewController.swift */,
 			);
-			path = Enums;
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C0FEF55627A0B35700C57F10 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEF55727A0B36A00C57F10 /* Typealias.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -437,7 +462,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -555,16 +580,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0FB7754274055BF00D5ADA1 /* CoachMarkViewController.swift in Sources */,
+				C0FEF55227A0B32000C57F10 /* IconButton.swift in Sources */,
 				51C6EF7E8ABB75703B1B3599B5753190 /* CoreFramework-dummy.m in Sources */,
+				C0FEF52027A0B15200C57F10 /* BaseCoordinator.swift in Sources */,
 				C0FB76F027403C9400D5ADA1 /* AutoLayoutOption.swift in Sources */,
 				C0FB76F527403D3A00D5ADA1 /* NSLayoutDimension+Extension.swift in Sources */,
+				C0FEF53227A0B19B00C57F10 /* CoordinatedViewController.swift in Sources */,
 				C0FB76C8274038D100D5ADA1 /* UIView+SafeAreaAnchors.swift in Sources */,
+				C0FEF52827A0B16800C57F10 /* Coordinator.swift in Sources */,
 				C0FB76C3274038AF00D5ADA1 /* UIView+LayoutGuides.swift in Sources */,
 				C0FB764D2740334500D5ADA1 /* ViewCodeContract.swift in Sources */,
 				C0FB76B92740387200D5ADA1 /* UIView+AxisAttribute.swift in Sources */,
 				C0FB76BE2740389500D5ADA1 /* UIView+RawAnchors.swift in Sources */,
-				C0FB773B27404B7100D5ADA1 /* Popover.swift in Sources */,
+				C0FEF56027A0B4C900C57F10 /* UILabel+Extensions.swift in Sources */,
+				C0FEF52D27A0B18100C57F10 /* CoordinatorConfiguration.swift in Sources */,
+				C0FEF55827A0B36A00C57F10 /* Typealias.swift in Sources */,
+				C0FEF53727A0B1DF00C57F10 /* UIView+Extensions.swift in Sources */,
 				C0FB770F2740402200D5ADA1 /* Padding.swift in Sources */,
 				C0FB76B2274037CD00D5ADA1 /* StringExtension.swift in Sources */,
 			);
@@ -689,7 +720,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -751,7 +782,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CoreFramework/CoreFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CoreFramework/CoreFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CoreFramework/CoreFramework.modulemap";
 				PRODUCT_MODULE_NAME = CoreFramework;
@@ -760,7 +791,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -815,7 +846,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CoreFramework/CoreFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CoreFramework/CoreFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CoreFramework/CoreFramework.modulemap";
 				PRODUCT_MODULE_NAME = CoreFramework;
@@ -823,7 +854,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -881,7 +912,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -928,7 +959,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,

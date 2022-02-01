@@ -17,7 +17,7 @@ CoreFramework is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CoreFramework'
+https://github.com/leojportes/CoreFramework.git
 ```
 
 ## Author
